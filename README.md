@@ -35,15 +35,15 @@ Here is the format of MC is that it is representing a matrix of |V|+1 rows and c
 
 Let K =3. Let vocabulary V= {A,C,T,G}. Suppose the three strings Xis are:
 
-X1: ACTGTGA
-X2: TACTGC
-X3: ACTGA
+    X1: ACTGTGA
+    X2: TACTGC
+    X3: ACTGA
 
 So, for this problem N1, N2, N3 are 7, 6 and 5 respectively. Let all costs be as follows: CC = 3, MC(x,y) = 2 if x, y ϵ V and x != y; MC(x, -) = 1; MC(x, x) = 0. We may define our conversions as follows:
 
-F(X1): -ACTGTGA
-F(X2): TACT--GC
-F(X3): -ACTG--A
+    F(X1): -ACTGTGA
+    F(X2): TACT--GC
+    F(X3): -ACTG--A
 
 With these conversions N = 8. The conversion costs are respectively 3, 6, and 9. The matching cost between F(X1) and F(X2) is 1+0+0+0+1+1+0+2 = 5. Similarly between F(X2) and F(X3) is 1+0+0+0+1+0+1+2=5 and between F(X1) and F(X3) is 0+0+0+0+0+1+1+0=2. Hence the total matching cost of this conversion is 5+5+2=12
 
