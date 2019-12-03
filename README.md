@@ -76,4 +76,4 @@ The goal is to find a conversion with the lowest final cost. (The current soluti
     
 ## Implementation
 
-A state space and transition function were defined and a heuristic search was developed for this. Also, a local search was implemented with the Neighbours being defined as the ones which differ by the position of one **-**. The program can be run by compiling the file by doing **./compile.sh** and then **./run.sh input.txt output.txt**
+A state space and transition function were defined and a heuristic search was developed for this. Also, a local search was implemented with the Neighbours being defined as the ones which differ by the position of one Dash (**-**). The program can be run by compiling the file by doing **./compile.sh** and then **./run.sh input.txt output.txt**
