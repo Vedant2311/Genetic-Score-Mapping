@@ -1,4 +1,4 @@
-# String-Mapping
+# Genetic-Score-Mapping
 
 ## Scenario 
 
